@@ -6,7 +6,7 @@ You need to train a model first. To train the model, use th following command, r
 python train_GCN_$(task).py --data $(dataset)
 ```
 # Provide an explanation
-Once you have a  model, the next step is to provide an explanation. You can find the important paths as the explanations. Use the following command to obtain the explanation,replaceing $(task) with the node, link or graph.:
+Once you have a  model, the next step is to provide an explanation. You can find the important paths as the explanations. Use the following command to obtain the explanation,replaceing $(task) with the node, link or graph. Run the following command can obtain the data in Figure 2 and Figure 3.
 ```bash
 python path_explain_$(task).py --data $(dataset)
 ```
